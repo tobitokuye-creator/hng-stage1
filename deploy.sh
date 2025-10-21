@@ -74,7 +74,7 @@ trap 'trap_handler ${LINENO}' ERR
 ################################################################################
 
 collect_parameters() {
-    log_info "=== Collecting Deployment Parameters ==="
+    log_info "=== Collecting Deployment Parameters Active! ==="
 
     # Git Repository URL
     read -p "Enter Git Repository URL: " GIT_REPO_URL
